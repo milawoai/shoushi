@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name = "BaseStyle">
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name = "commonStyle" parent="BaseStyle">
+            <item name="android:actionBarStyle">@style/ActionBarDefaultBackground</item>
+            <item name ="android:background">@color/common_white</item>
+            <item name="android:windowAnimationStyle">@style/AnimationActivity</item>
+    </style>
+
+    <style name = "ActionBarDefaultBackground">
+        <item name = "android:background">@color/main_color</item>
+    </style>
+
+
+    <style name="AnimationActivity" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/push_left_in</item>
+        <item name="android:activityOpenExitAnimation">@anim/push_left_out</item>
+        <item name="android:activityCloseEnterAnimation">@anim/zoom_enter</item>
+        <item name="android:activityCloseExitAnimation">@anim/zoom_exit</item>
+    </style>
+
+
+    <!-- popupWidnow 显示消失动画-->
+    <style name="popupwindow_anim_style">
+        <item name="android:windowEnterAnimation">@anim/popupwindow_enter</item>
+        <item name="android:windowExitAnimation">@anim/popupwindow_dismiss</item>
+    </style>
+
+
+</resources>

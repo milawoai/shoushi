@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="#f0f0f0"
+              android:orientation="vertical" >
+    <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="147dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/no_network_icon"/>
+    <TextView
+            android:id="@+id/list_network_error_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_gravity="center_horizontal"
+            android:text="网络不可用，请检查网络设置"
+            android:textColor="#cecece"
+            android:textSize="14sp" />
+    <TextView
+            android:id="@+id/list_network_error_reload_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="18dp"
+            android:layout_marginBottom="285dp"
+            android:gravity="center"
+            android:background="@drawable/list_network_error_reload_bg"
+            android:text="点击重新加载"
+            android:textColor="#cecece"
+            android:textSize="16sp" />
+</LinearLayout>

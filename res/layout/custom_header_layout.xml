@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <ImageView
+            android:id="@+id/header_image"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/margin_120dp"
+            android:scaleType="fitXY"/>
+    <LinearLayout
+            android:id="@+id/header_below_layout"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/margin_10dp"
+            android:background="@drawable/main_tab_header_bg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <TextView
+                android:id="@+id/title_text"
+                android:paddingTop="15dp"
+                android:paddingBottom="15dp"
+                android:paddingLeft="@dimen/margin_15dp"
+                android:gravity="center|left"
+                android:layout_gravity="bottom"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/main_head_text"
+                android:textColor="@color/common_black_text"
+                android:textSize="17sp"/>
+
+        <RelativeLayout
+                android:paddingLeft="@dimen/margin_15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            <TextView
+                    android:id="@+id/rate_title_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/common_orange_text"
+                    android:textSize="13sp"
+                    android:layout_marginTop="@dimen/margin_5dp"
+                    android:text="百分比"/>
+
+            <com.learn.shoushi.aChangeView.CountTextView
+                    android:id="@+id/history_rate_text"
+                    android:layout_below="@+id/rate_title_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:includeFontPadding="false"
+                    android:paddingTop="@dimen/margin_5dp"
+                    android:paddingBottom="@dimen/margin_5dp"
+                    android:singleLine="true"
+                    android:text="0.00%"
+                    android:textSize="65dp"
+                    android:textColor="@color/common_orange_text"/>
+
+
+            <Button
+                    android:id="@+id/fun_btn"
+                    android:layout_width="80dp"
+                    android:layout_height="30dp"
+                    android:text="Button"
+                    android:textStyle="normal"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:textSize="14dp"
+                    android:textColor="@color/common_orange_text"
+                    android:layout_marginTop="@dimen/margin_10dp"
+                    android:layout_marginRight="@dimen/margin_20dp"
+                    android:background="@drawable/buy_theme_orange_radius_button_selector"/>
+
+        </RelativeLayout>
+        <View
+                android:id="@+id/item_division_line"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="@dimen/margin_15dp"
+                android:layout_height="1px"
+                android:background="@color/gray_transparent_3"/>
+
+        <LinearLayout
+                android:id="@+id/des_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+            <TextView
+
+                    android:id="@+id/investment_des"
+                    android:layout_width="match_parent" android:layout_height="wrap_content"
+                    android:paddingLeft="@dimen/margin_15dp"
+                    android:paddingRight="@dimen/margin_15dp"
+                    android:paddingTop="@dimen/margin_10dp"
+                    android:text="ahaha"
+                    android:textColor="@color/selection_text_color"
+                    android:textSize="14sp"/>
+
+            <LinearLayout
+                    android:id="@+id/income_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="3dp"
+                    android:paddingLeft="@dimen/margin_15dp"
+                    android:visibility="gone"
+                    android:orientation="horizontal">
+
+                <TextView
+                        android:layout_width="wrap_content" android:layout_height="wrap_content"
+                        android:textColor="@color/selection_text_color"
+                        android:textSize="14sp"
+                        android:text="您的风险度为"/>
+
+                <com.learn.shoushi.aChangeView.CountTextView
+                        android:id="@+id/risk_degree_text"
+                        android:layout_width="wrap_content" android:layout_height="wrap_content"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="10dp"
+                        android:textColor="@color/common_orange_text"
+                        android:textSize="14sp"
+                        android:text="0.0"/>
+
+                <TextView
+                        android:id="@+id/income_rate_title_text"
+                        android:layout_width="wrap_content" android:layout_height="wrap_content"
+                        android:paddingLeft="2dp"
+                        android:textColor="@color/selection_text_color"
+                        android:textSize="14sp"
+                        android:text=""/>
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <View
+            android:id="@+id/header_division_view"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/margin_10dp"
+            android:background="@color/testing_gray_bg"
+            />
+
+</LinearLayout>

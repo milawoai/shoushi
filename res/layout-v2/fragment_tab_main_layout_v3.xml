@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res/com.learn.shoushi"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/common_white">
+
+    <com.learn.shoushi.aChangeView.TopActionBar
+            android:id="@+id/topbar"
+            android:background="@color/common_white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:topbarIsRightShow="true"
+            app:topbarRightImgRes="@drawable/icon_retest"
+            app:topbarIsRight2Show="true"
+            app:topbarRight2ImgRes="@drawable/icon_share"
+            app:topbarTitle="146"/>
+
+    <com.learn.shoushi.aChangeView.XListView
+            android:id="@+id/list_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/topbar"
+            android:background="@color/common_white"
+            android:divider="@null"
+            android:headerDividersEnabled="true"
+            android:footerDividersEnabled="false"
+            android:scrollbars="none"
+            android:scrollingCache="false"/>
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/page_top_banner_text_view"
+            android:text="123"
+            android:paddingLeft="2dp"
+            android:paddingRight="2dp"
+            android:singleLine="true"
+            android:ellipsize="end"
+            android:textSize="12sp"
+            android:layout_below="@+id/topbar"
+            android:background="@color/banner_msg_yellow_translucent"
+            android:visibility="gone"/>
+
+    <Button
+            android:id="@+id/invest_btn"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/margin_50dp"
+            android:text="56"
+            android:textColor="@color/common_white"
+            android:textSize="16dp"
+            android:visibility="gone"
+            android:background="@drawable/login_button_selector"
+            android:layout_alignParentBottom="true"/>
+
+
+</RelativeLayout>

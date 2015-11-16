@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/welcome_layout"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+
+    <com.learn.shoushi.aChangeView.BaseImageView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/image_welcome_bg"
+            android:layout_marginTop="20dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/welcome_bg"/>
+</RelativeLayout>

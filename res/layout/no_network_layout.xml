@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <View
+            android:layout_height="@dimen/margin_topbar"
+            android:layout_width="match_parent"
+            android:background="@color/transparent"/>
+
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/common_gray_bg">
+
+        <ImageView
+                android:layout_width="30dp"
+                android:layout_height="25dp"
+                android:layout_above="@+id/des_text"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="20dp"
+                android:src="@drawable/icon_no_network"/>
+
+        <TextView
+                android:id="@+id/des_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="网络不可用，请检查设置界面"
+                android:layout_above="@+id/no_network_button"
+                android:textColor="@color/common_gray_edit"
+                android:layout_centerHorizontal="true"
+                android:textSize="17sp"
+                android:layout_marginBottom="25dp"/>
+
+        <Button
+                android:id="@+id/no_network_button"
+                android:text="点击重新加载"
+                android:textSize="18sp"
+                android:paddingTop="10dp"
+                android:paddingLeft="50dp"
+                android:paddingRight="50dp"
+                android:paddingBottom="10dp"
+                android:textColor="@color/common_gray_edit"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/no_network_radius_button_selector"
+                android:layout_centerInParent="true"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

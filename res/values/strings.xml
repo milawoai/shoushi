@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">shoushi</string>
+    <string name="form_id">100000</string>
+    <string name="build_info">2013_33</string>
+    <string name="is_first_launch">true</string>
+
+    <string name="login_state">login_state</string>
+
+    <!-- 用户相关的信息 -->
+    <string name="get_verifycode_Time">getVerifyCodeTime</string>
+    <string name="lock_time">lock_time</string>
+    <string name="boolean_bind_weibo">isBindedWeibo</string>
+    <string name="is_quora_finished">isQuoraFinished</string>
+    <string name="quora_score">quoraScore</string>
+    <string name="is_invested">isInvested</string>
+
+
+
+    <!-- 退出对话框 -->
+    <string name="logout_confirm_tip">确认退出登录？</string>
+    <string name="confirm">确定</string>
+    <string name="cancel">取消</string>
+    <string name="yes">是</string>
+    <string name="no">否</string>
+    <!-- 清除痕迹确认对话框 -->
+    <string name="trace_confirm_tip">选择清除痕迹，意味着清除与你相关的所有BiBi的提醒，以及清除之前发布所有内容的作者身份</string>
+    <string name="trace_describtion_tip">为了保护隐私，清除痕迹成功后将清空之前BiBi相关的消息提醒以及楼主身份</string>
+    <string name="message_center">消息中心</string>
+    <string name="my_message">我的消息</string>
+
+    <string name="dialog_positive">确定</string>
+    <string name="dialog_cancel">取消</string>
+    <string name="success">成功</string>
+    <string name="double_click_quit">再按一次退出</string>
+
+    <!-- 下拉刷新 -->
+    <string name="pull_to_refresh_last_update_time">上次刷新：</string>
+    <string name="pull_to_refresh_format_1" formatted="false">%d分%d秒前</string>
+    <string name="pull_to_refresh_format_2">%d分钟前</string>
+    <string name="pull_to_refresh_format_3">%d秒前</string>
+    <string name="pull_to_refresh_format_4">刚刚</string>
+    <string name="xlistview_header_hint_normal">下拉刷新</string>
+    <string name="xlistview_header_hint_ready">松开刷新数据</string>
+    <string name="xlistview_header_hint_loading">正在加载...</string>
+    <string name="xlistview_header_hint_loading_finish">加载完成</string>
+    <string name="xlistview_header_last_time">上次更新时间：</string>
+    <string name="xlistview_footer_hint_normal">查看更多</string>
+    <string name="xlistview_footer_hint_ready">松开载入更多</string>
+    <string name="cube_ptr_seconds_ago">&#160;秒前</string>
+    <string name="cube_ptr_minutes_ago">&#160;分钟前</string>
+    <string name="cube_ptr_hours_ago">&#160;小时前</string>
+
+
+    <string name="image_des">IMAGE的描述</string>
+    <string name="blank_page">空白页</string>
+    <string name="delete">删除</string>
+    <string name="comment">评论</string>
+    <string name="comment_more">更多评论</string>
+    <string name="details">详情</string>
+    <string name="complete">完成</string>
+
+    <string name="increase_day">increase_day</string>
+    <string name="net_worth">net_worth</string>
+    <string name="asset_proportion">asset_proportion</string>
+    <string name="main_head_text">"年情人"</string>
+
+
+    <string name="input_pay_password">请输入交易密码</string>
+    <string name="input_trade_password_des">请输入交易密码</string>
+    <string name="withdraw_cash_success">提现成功</string>
+
+
+</resources>

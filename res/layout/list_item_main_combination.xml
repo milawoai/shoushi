@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:background="@drawable/common_listview_selector"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+
+    <RelativeLayout
+            android:id="@+id/color_layout"
+            android:layout_width="@dimen/margin_100dp"
+            android:layout_height="@dimen/margin_100dp"
+            android:layout_marginRight="@dimen/margin_10dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="@dimen/margin_15dp"
+            android:background="@color/common_white"
+            android:layout_gravity="center_vertical">
+
+        <com.renren.finance.android.view.CountTextView
+                android:id="@+id/income_history_text"
+                android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:textColor="@color/common_white"
+                android:layout_centerHorizontal="true"
+                android:textSize="28dp"
+                android:layout_marginTop="19dp"
+                android:text=""
+                />
+
+        <TextView
+                android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:textColor="@color/common_white"
+                android:layout_centerHorizontal="true"
+                android:textSize="14dp"
+                android:layout_marginTop="60dp"
+                android:text="income_history"
+                />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="@dimen/margin_15dp"
+            android:paddingLeft="6dp"
+            android:layout_height="match_parent">
+
+        <TextView
+                android:id="@+id/title_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:singleLine="true"
+                android:text=""
+                android:textSize="15dp"
+                android:includeFontPadding="false"/>
+
+        <TextView
+                android:id="@+id/des_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/title_text"
+                android:layout_marginTop="11dp"
+                android:text=""
+                android:paddingRight="@dimen/margin_10dp"
+                android:textSize="13dp"
+                android:lineSpacingExtra="6px"
+                android:maxLines="3"
+                android:textColor="@color/selection_text_color"
+                android:includeFontPadding="false"/>
+
+        <TextView
+                android:id="@+id/combination_count_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="84dp"
+                android:drawableLeft="@drawable/selection_fund_icon__normal"
+                android:drawablePadding="9dp"
+                android:gravity="center_vertical"
+                android:text=""
+                android:textSize="13dp"
+                android:textColor="@color/selection_text_color"/>
+
+        <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@color/gray_transparent_3"
+                android:layout_alignParentBottom="true"/>
+
+    </RelativeLayout>
+</LinearLayout>

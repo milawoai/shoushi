@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="main_color">#24262c</color>
+    <color name="transparent">#00000000</color>
+    <color name="half_black_transparent">#80000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="twenty_percent_alpha_white">#33FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="black_555555">#555555</color>
+    <color name="transparent_black_seventy">#B2000000</color>
+    <color name="transparent_black_half">#80000000</color>
+    <color name="grey">#C2C2C2</color>
+    <color name="default_dark_bg">#24262c</color>
+    <!-- 5%透明的背景黑色 -->
+    <color name="fifty_percent_alpha_default_dark_bg">#7f000000</color>
+    <color name="setting_item_selected_bg_color">#29292c</color>
+    <color name="transparent_white">#20ffffff</color>
+    <color name="transparent_white_half">#80ffffff</color>
+    <color name="transparent_white_seventy">#B2ffffff</color>
+    <color name="text_cursor_default">#0193FA</color>
+    <color name="light_blue_00c0ff">#00C0FF</color>
+
+    <color name="green">#00EE00</color>
+    <color name="orange">#FFA500</color>
+    <color name="trans_orange_seventy">#B2FF4800</color>
+    <color name="common_orange_text">#FF4800</color>
+    <color name="common_green_text">#80C22D</color>
+    <color name="common_gray_text_color">#bbbbbb</color>
+    <color name="common_gray_text_color_1">#1d1d1d</color>
+
+    <color name="gray149">#959595</color>
+
+    <color name="loading_textcolor">#a4aabe</color>
+    <color name="news_item_gray_color">#cc24262c</color>
+    <color name="more_tab_btn_bg_default">#1e1e21</color>
+    <color name="more_tab_btn_bg_selected">#0c0c0d</color>
+
+    <color name="progress_dialog_content_bg">#fbfcfd</color>
+    <color name="fund_detail_text_color">#bfbfbf</color>
+    <!-- 登录注册所需要的颜色设置 -->
+    <color name="red">#ff0000</color>
+    <color name="buttonTextColor">#050505</color>
+    <!-- 60%透明的白色 -->
+    <color name="eighty_percent_alpha_white">#33ffffff</color>
+    <color name="sixty_percent_alpha_white">#99ffffff</color>
+    <color name="fifty_percent_alpha_white">#7bffffff</color>
+    <color name="forty_percent_alpha_white">#66ffffff</color>
+    <color name="setting_text_color">#c8c7cc</color>
+    <color name="seperator_color">#e0e1e5</color>
+
+    <!-- 发布页需要的颜色定义 -->
+    <color name="publish_bottom_board_bg">#1d1e23</color>
+    <color name="voice_filter_item_name_selected">#4dffffff</color>
+
+    <color name="list_item_default_bg">#EAEFF6</color>
+    <color name="black_trans_60">#99000000</color>
+    <color name="gray">#888888</color>
+    <color name="black_trans_40">#64000000</color>
+    <!-- 联盟页需要的颜色定义 -->
+    <color name="union_member_text_color">#81BBA6</color>
+    <color name="union_total_level_text_color">#b0b0b0</color>
+    <color name="union_tab_cursor_color">#2CBA86</color>
+    <color name="union_topic_same_city">#a3a3a3</color>
+    <color name="union_topic_activity">#f3bc27</color>
+
+    <!-- Feed需要的颜色定义 -->
+    <color name="feed_item_title_text_color">#626262</color>
+    <color name="feed_item_content_text_color">#666666</color>
+    <color name="feed_item_user_name_text_color">#006600</color>
+    <color name="feed_item_time_text_color">#aaaaaa</color>
+
+    <!-- 评论页需要的颜色定义 -->
+    <color name="comment_send_btn_empty">#3D787878</color>
+    <color name="comment_send_btn_default">#787878</color>
+
+    <color name="general_seprator_color">#f1f1f1</color>
+
+    <!-- 排行榜的颜色定义 -->
+    <color name="union_ranking_item_title_color">#333333</color>
+    <color name="union_ranking_item_number_color">#aaaaaa</color>
+    <color name="union_ranking_mass_org_level_color">#957425</color>
+
+
+    <!-- Add by three. -->
+
+
+    <!-- 通用颜色 -->
+    <color name="common_left_btn_white_bg">#d6ffffff</color>
+    <color name="common_right_btn_orange_bg">#d6ff4800</color>
+    <color name="common_black">#222222</color>
+    <color name="common_black_text">#000000</color>
+    <color name="common_white">#ffffff</color>
+    <color name="common_gray">#adadad</color>
+    <color name="common_gray_edit">#bfbfbf</color>
+    <color name="common_gray_text_color_cccccc">#cccccc</color>
+    <color name="trans_gray_text_color_cccccc_seventy">#b2cccccc</color>
+    <color name="common_gray_text_color_dddddd">#dddddd</color>
+    <color name="common_gray_eeeeee">#eeeeee</color>
+    <color name="common_orange">#fe8b04</color>
+    <color name="common_agree">#676767</color>
+    <color name="common_orange_text_1">#fe7f48</color>
+    <color name="common_transparent">@android:color/transparent</color>
+
+    <color name="common_gray_bg">#efefef</color>
+
+    <color name="common_list_diver_line">#ededed</color>
+    <color name="testing_list_diver_line">#ededed</color>
+
+
+    <color name="common_button_bg_shadow">#14000000</color>
+    <color name="common_disable_button_bg_solid">#fbfcfd</color>
+    <color name="common_disable_button_bg_border">#c8c9ce</color>
+
+    <color name="simple_list_item_text_black">#35312f</color>
+    <color name="simple_list_item_text_gray">#b2b2b2</color>
+    <color name="simple_list_item_normal">#ffffff</color>
+    <color name="simple_list_item_pressed">#0d000000</color>
+
+    <color name="main_list_item_text_black">#4b4b4b</color>
+    <color name="theme_divider_color">#cecece</color>
+
+    <!-- TAB -->
+    <color name="tab_host_bg">#ffffff</color>
+    <color name="tab_text_color_d">#7a7a7a</color>
+    <color name="tab_text_color_s">#ff4800</color>
+
+    <color name="top_action_bar_text_color">#000000</color>
+    <color name="top_action_bar_bg">#ffffff</color>
+
+    <color name="blue1">#ff0061a9</color>
+    <color name="blue2">#ff86bbe2</color>
+    <color name="blue3">#4daeec</color>
+    <color name="blue4">#0978fc</color>
+    <color name="blue5">#136ebb</color>
+    <color name="blue_login">#00BFFF</color>
+    <color name="red1">#ff9f2a75</color>
+    <color name="red2">#ffb35390</color>
+    <color name="green1">#ff00a918</color>
+    <color name="green2">#ff2b8226</color>
+
+    <color name="ranking_number_one_color">#fe4b00</color>
+    <color name="ranking_number_two_color">#ff7700</color>
+    <color name="ranking_number_three_color">#fccf00</color>
+
+    <!-- 透明灰 -->
+    <color name="gray_transparent_c">#C0000000</color>
+    <color name="gray_transparent_b">#B0000000</color>
+    <color name="gray_transparent_a">#A0000000</color>
+    <color name="gray_transparent_9">#90000000</color>
+    <color name="gray_transparent_8">#80000000</color>
+    <color name="gray_transparent_7">#70000000</color>
+    <color name="gray_transparent_6">#60000000</color>
+    <color name="gray_transparent_5">#50000000</color>
+    <color name="gray_transparent_4">#40000000</color>
+    <color name="gray_transparent_3">#30000000</color>
+
+    <color name="thirty_percent_alpha_black">#4D000000</color>
+
+    <!-- Login-->
+    <color name="login_orange">#fc491e</color>
+
+
+    <color name="slide_delete_button_normal">#FFFC701F</color>
+    <color name="slide_delete_button_pressed">#FFFC1D60</color>
+
+    <!-- -->
+    <color name="testing_orange">#ff4800</color>
+    <color name="testing_orange_pressed">#FF9F3B</color>
+    <color name="testing_gray">#a9a9a9</color>
+    <color name="testing_gray_bg">#eeeeee</color>
+    <color name="testing_pur">#AA0000</color>
+
+    <!-- PieChart -->
+    <color name="pie_chart_red">#df335b</color>
+    <color name="pie_chart_yellow">#ffd200</color>
+    <color name="pie_chart_blue">#44b7f3</color>
+    <color name="pie_chart_green">#c7db57</color>
+    <color name="pie_chart_purple">#8c54d9</color>
+
+    <!-- LineChart -->
+    <color name="line_chart_orange">#ff4800</color>
+    <color name="line_chart_green">#e0eba1</color>
+    <color name="line_chart_orange_tans_20">#33ffcc00</color>
+    <color name="line_chart_orange_tans_80">#CCff4800</color>
+    <color name="line_chart_orange_tans_70">#CCC29823</color>
+    <color name="line_chart_orange_tans_30">#CCA47C21</color>
+    <color name="line_chart_text_color">#33FFFFFF</color>
+
+    <!-- Quora Button-->
+    <color name="quora_gray_n">#444444</color>
+    <color name="quora_gray_p">#FF282828</color>
+    <color name="quora_orange_n">#fc491e</color>
+    <color name="quora_orange_p">#FFB53315</color>
+    <color name="quora_list_gray_p">#95737373</color>
+
+    <color name="cousel_title_gray">#EEEEEE</color>
+    <color name="cousel_title_background">#FF4800</color>
+    <color name="cousel_title_font_background">#ff4800</color>
+    <color name="finance_header_bg_color">#FF1e00</color>
+    <color name="titlebar_title_text_color">#505050</color>
+    <color name="common_drivier_color">#E4E4E4</color>
+    <color name="fund_type_text_color">#BEBEBE</color>
+
+    <color name="join_in_color">#444444</color>
+
+    <color name="cousel_gray">#ccc</color>
+    <color name="cousel_search_text_color">#bbbbbb</color>
+
+    <color name="selection_text_color">#C4C4C4</color>
+
+    <color name="banner_msg_yellow_translucent">#a0ffff9d</color>
+    <color name="transfer_details_fragment_grey_divider">#f3f3f3</color>
+    <color name="privilege_gold">#FFD800</color>
+
+    <color name="transparent_titlebar_default">#20000000</color>
+    <color name="transparent_titlebar_pressed">#33000000</color>
+    <color name="titlebar_title_shadow_color">#33000000</color> <!-- 10%的黑色投影 -->
+    <!-- 公共输入框相关颜色定义 -->
+    <color name="common_edit_text_bg_border">#c2c4cc</color>
+    <color name="common_edit_text_bg_solid">#ffffff</color>
+    <color name="common_edit_text_bg_box_shadow">#ebebeb</color>
+    <color name="common_edit_text_bg_divider_line">#1a000000</color>
+    <color name="common_edit_text_text_hint">#c8c8c8</color>
+    <color name="common_edit_text_text">#232323</color>
+    <!-- 公共cell模块相关颜色定义 -->
+    <color name="common_cell_bg_border">#26000000</color>
+    <!-- 通用Dialog相关 -->
+    <color name="renren_dialog_bg_shadow">#bebec1</color>
+    <color name="renren_dialog_bg_shadow_pressed">#0f5896</color>
+    <color name="renren_dialog_content_bg">#fbfcfd</color>
+    <color name="renren_dialog_content_bg_pressed">#2998d7</color>
+    <color name="renren_dialog_title_text">#282828</color>
+    <color name="renren_dialog_content_text">#787878</color>
+    <color name="renren_dialog_content_divider">#046bbc</color>
+    <color name="renren_dialog_list_item_text">#136ebb</color>
+    <color name="renren_dialog_list_special_item_text">#eb3c33</color>
+    <color name="renren_dialog_list_item_bg">#fbfcfd</color>
+    <color name="renren_dialog_list_item_bg_pressed">#136ebb</color>
+    <color name="renren_dialog_list_item_bg_pressed_special">#eb3c33</color>
+    <color name="renren_dialog_list_divider">#edeef1</color>
+    <color name="renren_dialog_list_divider_grey">#cccccc</color>
+    <color name="renren_dialog_btn_divider">#d4d9e1</color>
+    <color name="renren_dialog_btn_bg">#edeef1</color>
+    <color name="renren_dialog_btn_bg_pressed">#136ebb</color>
+    <color name="renren_dialog_btn_cancel_text">#505050</color>
+    <color name="renren_dialog_btn_ok_text">#136ebb</color>
+    <color name="renren_dialog_btn_text_pressed">#ffffff</color>
+    <color name="friends_search_edit_text_color">#505050</color>
+
+</resources>

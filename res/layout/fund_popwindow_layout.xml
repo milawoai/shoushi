@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/gray_transparent_8">
+
+    <TextView
+            android:id="@+id/fund_popwindow_text"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="@dimen/margin_12dp"
+            android:textColor="@color/common_white"
+            android:padding="@dimen/margin_5dp"/>
+
+</LinearLayout>

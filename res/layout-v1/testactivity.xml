@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <com.learn.shoushi.aChangeView.CircleTextView
+            android:id="@+id/circle_text"
+            android:layout_width="38dp"
+            android:layout_height="38dp"
+            android:textColor="@color/common_black"
+            android:textSize="12dp"
+            android:layout_marginRight="@dimen/margin_10dp"
+            android:layout_marginLeft="17dp"
+            android:layout_gravity="center_vertical"
+            android:gravity="center"
+            android:text="buy"/>
+
+</LinearLayout>

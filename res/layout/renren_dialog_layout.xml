@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="280dip"
+              android:layout_height="wrap_content"
+              android:background="@drawable/renren_dialog_bg">
+
+    <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+        <LinearLayout
+                android:id="@+id/renren_dialog_content_layout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/renren_dialog_content_bg"
+                android:orientation="vertical"
+                android:paddingTop="5dip"
+                android:paddingLeft="20dip"
+                android:paddingRight="20dip"
+                android:paddingBottom="20dip" >
+
+            <TextView
+                    android:id="@+id/renren_dialog_title_view"
+                    style="@style/renren_dialog_content_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="5dip"
+                    android:gravity="center"
+                    android:visibility="gone" />
+
+            <TextView
+                    android:id="@+id/renren_dialog_message_view"
+                    style="@style/renren_dialog_content_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center"
+                    android:layout_marginTop="15dip"
+                    android:visibility="gone" />
+
+            <com.learn.shoushi.UI.SearchEditText
+                    android:id="@+id/renren_dialog_edit_text"
+                    android:layout_width="fill_parent"
+                    android:layout_height="40dip"
+                    android:layout_marginTop="15dip"
+                    android:drawablePadding="10dip"
+                    android:gravity="center_vertical"
+                    android:includeFontPadding="false"
+                    android:paddingLeft="11dip"
+                    android:paddingRight="11dip"
+                    android:paddingTop="2dp"
+                    android:textColor="@color/friends_search_edit_text_color"
+                    android:textSize="14sp"
+                    android:visibility="gone" />
+                <!--  android:background="@drawable/common_edit_text_single_bg"-->
+
+            <LinearLayout
+                    android:id="@+id/renren_dialog_check_layout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="25dip"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:visibility="gone" >
+
+                <CheckBox
+                        android:id="@+id/renren_dialog_check_box"
+                        android:layout_width="16dip"
+                        android:layout_height="16dip"
+                        android:button="@drawable/common_checkbox_small_selector"
+                        android:focusable="false"
+                        android:focusableInTouchMode="false" />
+
+                <TextView
+                        android:id="@+id/renren_dialog_check_message_view"
+                        style="@style/renren_dialog_content_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dip" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <ListView
+                android:id="@+id/renren_dialog_list_view"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:divider="@color/renren_dialog_list_divider"
+                android:dividerHeight="1dp"
+                android:visibility="gone" />
+    </FrameLayout>
+
+
+        <View
+                android:id="@+id/renren_dialog_divider"
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="@color/renren_dialog_btn_divider"/>
+
+        <LinearLayout
+                android:id="@+id/button_view"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/renren_dialog_btn_bg"
+                android:orientation="horizontal" >
+
+                <Button
+                        android:id="@+id/renren_dialog_cancel_btn"
+                        style="@style/renren_dialog_cancel_btn_text"
+                        android:layout_width="fill_parent"
+                        android:layout_height="50dip"
+                        android:layout_weight="1"
+                        android:background="@drawable/renren_dialog_btn_bg_selector"
+                        android:gravity="center"
+                        android:text="@string/dialog_cancel" />
+
+                <View
+                        android:id="@+id/renren_dialog_btn_divider"
+                        android:layout_width="1dp"
+                        android:layout_height="34dp"
+                        android:layout_gravity="center_vertical"
+                        android:background="@color/renren_dialog_btn_divider"
+                        android:visibility="gone" />
+
+                <Button
+                        android:id="@+id/renren_dialog_ok_btn"
+                        style="@style/renren_dialog_ok_btn_text"
+                        android:layout_width="fill_parent"
+                        android:layout_height="50dip"
+                        android:layout_weight="1"
+                        android:background="@drawable/renren_dialog_btn_bg_selector"
+                        android:gravity="center"
+                        android:text="@string/dialog_positive"
+                        android:visibility="gone" />
+        </LinearLayout>
+
+
+
+</LinearLayout>

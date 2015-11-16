@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="father">父亲</string>
+    <string name="mother">母亲</string>
+    <string name="father_elder_uncle">伯伯</string>
+    <string name="son">儿子</string>
+    <string name="daughter">女儿</string>
+</resources>

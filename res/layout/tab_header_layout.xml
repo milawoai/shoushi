@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:clickable="false">
+
+    <LinearLayout
+            android:id="@+id/header_top_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:orientation="vertical"
+            android:background="@drawable/main_tab_header_bg">
+        <TextView
+                android:id="@+id/tranfer_position_notice"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/margin_25dp"
+                android:paddingLeft="@dimen/margin_15dp"
+
+                android:gravity="center_vertical"
+                android:singleLine="true"
+                android:ellipsize="end"
+                android:textSize="@dimen/textsize_12sp"
+                android:textColor="@color/common_orange_text"
+                android:background="#FEFFA4"
+                android:visibility="gone"
+                android:text="tips_1"/>
+
+        <LinearLayout
+                android:id="@+id/history_layout"
+                android:layout_width="match_parent"
+                android:layout_height="198dp"
+                android:paddingBottom="@dimen/margin_15dp"
+                android:orientation="horizontal">
+
+            <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/finance_product"
+                        android:layout_marginTop="37dp"
+                        android:text=""
+                        android:textSize="@dimen/textsize_17sp"
+                        android:paddingLeft="16dp"/>
+
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/history_title"
+                        android:layout_below="@id/finance_product"
+                        android:layout_marginTop="30dp"
+                        android:paddingLeft="16dp"
+                        android:textSize="@dimen/textsize_15sp"
+                        android:textColor="@color/tab_text_color_s"/>
+
+                <TextView
+                        android:id="@+id/fund_buy_time"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@id/history_title"
+                        android:layout_alignBottom="@id/history_title"
+                        android:paddingLeft="@dimen/margin_8dp"
+                        android:paddingBottom="@dimen/margin_1dp"
+                        android:textColor="@color/selection_text_color"
+                        android:textSize="@dimen/margin_12dp"
+                        android:visibility="gone"/>
+
+                <com.learn.shoushi.aChangeView.CountTextView
+                        android:id="@+id/history_rate"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:paddingLeft="15dp"
+                        android:singleLine="true"
+                        android:gravity="left"
+                        android:text="0.00%"
+                        android:textSize="50dp"
+                        android:textColor="@color/tab_text_color_s"/>
+
+            </RelativeLayout>
+
+            <FrameLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:paddingTop="5dp"
+                    android:paddingRight="5dp"
+                    android:layout_weight="1">
+
+                <LinearLayout
+                        android:id="@+id/fund_type_layout"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_gravity="center"
+                        android:gravity="center">
+
+                </LinearLayout>
+
+            </FrameLayout>
+
+        </LinearLayout>
+
+        <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/margin_1px"
+                android:background="@color/common_gray_text_color_dddddd"
+                android:id="@+id/driver1"/>
+
+        <LinearLayout android:id="@+id/risk_layout"
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:orientation="horizontal"
+                      android:paddingBottom="10dp"
+                      android:paddingTop="10dp"
+                      android:paddingLeft="16dp">
+
+            <TextView
+                    android:id="@+id/risk_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/textsize_13sp"
+                    android:textColor="@color/selection_text_color"
+                    android:visibility="gone"
+                    android:text="low_to"/>
+
+            <com.learn.shoushi.aChangeView.CountTextView
+                    android:id="@+id/risk_score"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="@dimen/margin_5dp"
+                    android:paddingRight="10dp"
+                    android:text=""
+                    android:textSize="@dimen/textsize_15sp"
+                    android:textColor="@color/tab_text_color_s"/>
+
+            <TextView
+                    android:id="@+id/risk_comment"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/textsize_13sp"
+                    android:singleLine="true"
+                    android:text=""
+                    android:ellipsize="end"
+                    android:textColor="@color/selection_text_color"/>
+
+            <ImageView
+                    android:id="@+id/issue_image"
+                    android:layout_width="14dp"
+                    android:layout_height="14dp"
+                    android:src="@drawable/icon_issue_gray"
+                    android:contentDescription="@string/image_des"
+                    android:layout_marginLeft="5dp"
+                    android:layout_gravity="center_vertical"
+                    android:visibility="gone"
+                    />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:background="@color/testing_gray_bg"/>
+
+    <TextView
+            android:id="@+id/asset_allocation_text"
+            android:layout_width="match_parent"
+            android:layout_height="43dp"
+            android:text="Contrxet"
+            android:textSize="@dimen/textsize_13sp"
+            android:textColor="@color/selection_text_color"
+            android:gravity="center_vertical"
+            android:paddingLeft="16dp"
+            android:drawableLeft="@drawable/asset_allocation_icon"
+            android:drawablePadding="@dimen/margin_10dp"/>
+
+    <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/margin_1px"
+            android:background="@color/common_gray_text_color_dddddd"
+            android:id="@+id/driver2"
+            android:layout_marginLeft="17dp"/>
+
+</LinearLayout>
